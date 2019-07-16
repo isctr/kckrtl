@@ -19202,8 +19202,8 @@ cr.plugins_.Touch = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.CordovaAdmobFree,
-	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
 	cr.plugins_.Text,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Sprite.prototype.acts.StopAnim,
@@ -19213,7 +19213,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.exps.floor,
 	cr.system_object.prototype.exps.random,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
-	cr.plugins_.CordovaAdmobFree.prototype.acts.loadBanner,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Text.prototype.acts.MoveToTop,
@@ -19229,11 +19228,10 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.Wait,
 	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
-	cr.plugins_.CordovaAdmobFree.prototype.acts.loadAndShowInterstitial,
-	cr.plugins_.CordovaAdmobFree.prototype.acts.removeBanner,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.system_object.prototype.acts.GoToLayout,
-	cr.plugins_.Browser.prototype.acts.GoToURLWindow
+	cr.plugins_.CordovaAdmobFree.prototype.acts.loadBanner,
+	cr.plugins_.CordovaAdmobFree.prototype.acts.loadInterstitial
 ];};
