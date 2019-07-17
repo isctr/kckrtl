@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <widget id="com.aocenns.kackurtuloynn" version="1.0" android-versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Kaç Kurtul</name>
-	<description>Beyaz topları topla</description>
+	<description>Düşen oklardan kurtulmaya çalış</description>
 	<author href="http://www.oyuntrak.com">genckafem@gmail.com</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
@@ -15,7 +15,7 @@
 	<preference name="AllowInlineMediaPlayback" value="true" />
 	<preference name="phonegap-version" value="cli-8.0.0" />
 
-	
+
 	<preference name="deployment-target" value="10.0" />
 	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
